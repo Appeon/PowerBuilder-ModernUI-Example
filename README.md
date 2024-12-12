@@ -1,5 +1,5 @@
 # PowerBuilder-Menu2RibbonBar-Example
-This demo is a PowerBuilder application, developed with Appeon PowerBuilder 2025 Beta3(build 3503). This Sales CRM Demo application demonstrates the new Converting MDI Menu to RibbonBar feature!  (*You can learn more details from PB Help - What's New - PowerBuilder 2025 - New Features.*)
+This demo is a PowerBuilder application, developed with Appeon PowerBuilder 2025 Beta3 (build 3503). This Sales CRM Demo application demonstrates the new Converting MDI Menu to RibbonBar feature!  (*You can learn more details from PB Help - What's New - PowerBuilder 2025 - New Features.*)
 
 ### Get Started
 
