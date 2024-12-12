@@ -137,7 +137,7 @@
 						<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_filter" PictureName="FilterSmall!" PowerTipText="Filter the current data" Shortcut="" PowerTipDescription="" Tag=""  Visible="true"/>
 					</Group>
 				</Panel>
-				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Tag="OpenSheet" Text="OpenSheet" Visible="false">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Tag="SheetListPanel" Text="SheetList" Visible="false">
 					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" PictureName="SwitchWindowsBig!" PowerTipText="SheetList" Tag="SheetList" Text="SheetList" Visible="true"/>
 				</Panel>
 			</Category>
