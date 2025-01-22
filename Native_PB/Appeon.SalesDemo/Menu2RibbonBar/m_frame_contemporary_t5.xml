@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<RibbonBar BuiltinTheme="0" Font="FaceName:Tahoma; TextSize:12">
+	<RibbonItems>
+		<Categories>
+			<Category Enabled="true" MenuItemName="m_boards" Text="Boards" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Common" Visible="true">
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_salesmockup" PictureName="ReportsBig!" PowerTipText="Sales" Text="Common" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_salesterritory" PictureName="BoardBig!" Text="Sales Territory" Visible="true">
+								<Item Checked="false" Enabled="true" MenuItemName="m_salesterritorycurrent" PictureName="Custom001!" Text="Sales Territory Current" Visible="true"/>
+								<Item Checked="false" Enabled="true" MenuItemName="m_salesterritoryhistory" PictureName="Custom004!" Text="Sales Territory History" Visible="true"/>
+							</Item>
+							<Item Checked="false" Enabled="true" MenuItemName="m_store" PictureName="PinToQuickAccessBig!" Text="Store" Visible="true">
+								<Item Checked="false" Enabled="true" MenuItemName="m_salesperson" PictureName="AddWatch1!" Text="SalesPerson" Visible="true"/>
+							</Item>
+							<Item Checked="false" Enabled="true" MenuItemName="m_sepcialoffer" PictureName="HistoryBig!" Text="SepcialOffer" Visible="true">
+								<Item Checked="false" Enabled="true" MenuItemName="m_sepcialofferproduct" PictureName="Custom005!" Text="SepcialOfferProduct" Visible="true"/>
+								<Item Checked="false" Enabled="true" MenuItemName="m_sepcialofferlist" PictureName="Custom004a!" Text="SepcialOfferList" Visible="true"/>
+							</Item>
+							<Item Checked="false" Enabled="true" MenuItemName="m_creditcard" PictureName="Custom041a!" Text="CreditCard" Visible="true"/>
+						</Menu>
+					</LargeButton>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_address" PictureName="image\address.png" PowerTipText="Address" Text="Address" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_customer" PictureName="image\Customer.png" PowerTipText="Customer" Text="Customer" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_product" PictureName="image\product.png" PowerTipText="Product" Text="Product" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_order" PictureName="image\Order.png" PowerTipText="Order" Text="Order" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Finance" Visible="true">
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_purchasing" PictureName="BurnToDiskBig!" PowerTipText="Purchasing" Text="Finance" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_vendor" PictureName="Custom003a!" Text="Vendor" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_shipmethod" PictureName="Custom037a!" Text="ShipMethod" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_purchaseorder" PictureName="RibbonMenuButtonLarge!" Text="PurchaseOrder" Visible="true">
+								<Item Checked="false" Enabled="true" MenuItemName="m_purchaseorderheader" PictureName="Custom007a!" Text="PurchaseOrderHeader" Visible="true"/>
+								<Item Checked="false" Enabled="true" MenuItemName="m_purchaseorderdetail" PictureName="Custom017!" Text="PurchaseOrderDetail" Visible="true"/>
+							</Item>
+							<Item Checked="false" Enabled="true" MenuItemName="m_productvendor" PictureName="Custom017a!" Text="ProductVendor" Visible="true"/>
+						</Menu>
+					</LargeButton>
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_humanresources" PictureName="HRBig!" PowerTipText="Human Resources" Text="Human Resources" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_employeedepartments" PictureName="Custom043a!" Text="Employee Departments" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_employeejobtitles" PictureName="Custom016a!" Text="Employee Job Titles" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_shifts" PictureName="Custom008a!" Text="Shifts" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_departments" PictureName="Custom006a!" Text="Departments" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_jobcandidates" PictureName="Custom025a!" Text="Job Candidates" Visible="true"/>
+						</Menu>
+					</LargeButton>
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_finance" PictureName="CurrencyBig!" PowerTipText="Finance" Text="Finance" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_accounts" PictureName="Custom096a!" Text="Accounts" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_transactions" PictureName="Where1!" Text="Transactions " Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_budgets" PictureName="Custom040a!" Text="Budgets" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_expensereports" PictureName="PasteInstance!" Text="Expense Reports" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_taxrates" PictureName="Custom042!" Text="Tax Rates" Visible="true"/>
+						</Menu>
+					</LargeButton>
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_marketing" PictureName="MarginsBig!" PowerTipText="Marketing" Text="Marketing" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_campaigns" PictureName="Custom008a!" Text="Campaigns" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_campaigntypes" PictureName="Custom023a!" Text="Campaign Types" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_contacts" PictureName="Custom047!" Text="Contacts" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_vendors" PictureName="Custom051!" Text="Vendors" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_eventvenues" PictureName="Custom058!" Text="Event Venues" Visible="true"/>
+						</Menu>
+					</LargeButton>
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_customerservice" PictureName="ShareBig!" PowerTipText="Customer Service" Text="Customer Service" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_supporttickets" PictureName="Custom005a!" Text="Support Tickets" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_ticketstatus" PictureName="AlignAllHeightsAndWidthsSame!" Text="Ticket Status" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_faq" PictureName="Custom070!" Text="FAQ" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_feedback" PictureName="Custom052a!" Text="Feedback" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_contactinformation" PictureName="MenuIcon!" Text="Contact Information" Visible="true"/>
+						</Menu>
+					</LargeButton>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Logistics" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_shipping" PictureName="Custom051a!" PowerTipText="Shipping" Text="Logistics" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_receiving" PictureName="Custom034a!" PowerTipText="Receiving" Text="Receiving" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_fleetmanagement" PictureName="NestedReturn1!" PowerTipText="Fleet Management" Text="Fleet Management" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_warehousing" PictureName="Custom040!" PowerTipText="Warehousing" Text="Warehousing" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_distribution" PictureName="Custom063a!" PowerTipText="Distribution" Text="Distribution" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_inventorymanagement" PictureName="Custom054a!" PowerTipText="Inventory Management" Text="Inventory Management" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="R&amp;D" Visible="true">
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_rd" PictureName="BurnToDiskBig!" PowerTipText="R&amp;D" Text="R&amp;D" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_researchprojects" PictureName="OutputNext1!" Text="Research Projects" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_developmentphases" PictureName="EAServerProfile!" Text="Development Phases" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_prototypetesting" PictureName="Environment1!" Text="Prototype Testing" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_patents" PictureName="Environment1!" Text="Patents" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_innovationmanagement" PictureName="RegistrationDir3!" Text="Innovation Management" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_productdevelopment" PictureName="RegistrationDir2!" Text="Product Development" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_researchteams" PictureName="SystemTree2!" Text="Research Teams" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_labequipment" PictureName="Watcom!" Text="Lab Equipment" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_grantapplications" PictureName="ToDoList!" Text="Grant Applications" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_technicalreports" PictureName="ViewPainter!" Text="Technical Reports" Visible="true"/>
+						</Menu>
+					</LargeButton>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Legal" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_contracts" PictureName="Custom003!" PowerTipText="Contracts" Text="Legal" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_compliance" PictureName="Custom046a!" PowerTipText="Compliance" Text="Compliance" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_casemanagement" PictureName="Custom062a!" PowerTipText="Case Management" Text="Case Management" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_legaldocuments" PictureName="Custom064a!" PowerTipText="Legal Documents" Text="Legal Documents" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_riskmanagement" PictureName="Custom058a!" PowerTipText="Risk Management" Text="Risk Management" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_intellectualproperty" PictureName="Custom044a!" PowerTipText="Intellectual Property" Text="Intellectual Property" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_litigation" PictureName="Custom096a!" PowerTipText="Litigation" Text="Litigation" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Facilities" Visible="true">
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_facilities" PictureName="ActionsBig!" PowerTipText="Facilities" Text="Facilities" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_maintenance" PictureName="Custom072a!" Text="Maintenance" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_security" PictureName="Custom046!" Text="Security" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_spacemanagement" PictureName="Custom065a!" Text="Space Management" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_cleaningservices" PictureName="Custom075a!" Text="Cleaning Services" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_equipmentmanagement" PictureName="Custom086a!" Text="Equipment Management" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_energymanagement" PictureName="Custom078a!" Text="Energy Management" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_safetyinspections" PictureName="AddWatch1!" Text="Safety Inspections" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_facilityreservations" PictureName="Custom001a!" Text="Facility Reservations" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_facilityupgrades" PictureName="Custom034a!" Text="Facility Upgrades" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_facilityreports" PictureName="Custom087!" Text="Facility Reports" Visible="true"/>
+						</Menu>
+					</LargeButton>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Training" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_trainingprograms" PictureName="Custom065a!" PowerTipText="Training Programs" Text="Training" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_trainingsessions" PictureName="Custom047a!" PowerTipText="Training Sessions" Text="Training Sessions" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_coursematerials" PictureName="Custom087a!" PowerTipText="Course Materials" Text="Course Materials" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_certifications" PictureName="Custom071!" PowerTipText="Certifications" Text="Certifications" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_onlinetraining" PictureName="Custom005a!" PowerTipText="Online Training" Text="Online Training" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_inpersontraining" PictureName="Custom076!" PowerTipText="In-person Training" Text="In-person Training" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_trainingcalendar" PictureName="Custom098a!" PowerTipText="Training Calendar" Text="Training Calendar" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Tag="SheetListPanel" Text="SheetList" Visible="false">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" PictureName="RibbonSmallButtonDefault!" PowerTipText="SheetList" Tag="SheetList" Text="SheetList" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_action" Text="Action" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Data Operation" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_add" PictureName="Insert!" PowerTipText="Add" Text="Data Operation" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_delete" PictureName="DeleteRow!" PowerTipText="Delete" Text="Delete" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_edit" PictureName="Edit!" PowerTipText="Edit" Text="Edit" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_save" PictureName="Save!" PowerTipText="Save" Text="Save" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_cancel" PictureName="Undo!" PowerTipText="Cancel" Text="Cancel" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Export" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_export" PictureName="ExportSmall!" PowerTipText="Export" Text="Export" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_export_json" PictureName="Export2!" Text="JSON" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_2" PictureName="RibbonSmallButtonDefault!" Text="-" Type="1" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_export_pdf" PictureName=".\image\CreatePDF.png" Text="PDF" Visible="true"/>
+						</Menu>
+					</SmallButton>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_send" PictureName="SendSmall!" PowerTipText="Send" Text="Send" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_send_email" PictureName=".\image\send-email.png" Text="Email" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_3" PictureName="RibbonSmallButtonDefault!" Text="-" Type="1" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_send_survey" PictureName=".\image\survey.png" Text="Survey" Visible="true"/>
+						</Menu>
+					</SmallButton>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Selection" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_selectall" PictureName="SelectAll2!" PowerTipText="Select All" Text="Selection" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_deselectall" PictureName="DeleteWatch1!" PowerTipText="Deselect All" Text="Deselect All" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Text Style" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_bold" PictureName="Bold!" PowerTipText="Bold" Text="Text Style" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_italic" PictureName="Italic!" PowerTipText="Italic" Text="Italic" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_underline" PictureName="Underline!" PowerTipText="Underline" Text="Underline" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_strikethrough" PictureName="Strikethrough!" PowerTipText="Strikethrough" Text="Strikethrough" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Alignment" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_alignleft" PictureName="AlignLeft1!" PowerTipText="Align Left" Text="Alignment" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_aligncenter" PictureName="AlignHCenter1!" PowerTipText="Align Center" Text="Align Center" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_alignright" PictureName="AlignRight1!" PowerTipText="Align Right" Text="Align Right" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Shapes" Visible="true">
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_shapes" PictureName="ShapeBig!" PowerTipText="Shapes" Text="Shapes" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_insertshape" PictureName="Insert4!" Text="Insert Shape" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_editshape" PictureName="EditObject!" Text="Edit Shape" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_changeshape" PictureName="DosEdit!" Text="Change Shape" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_shapefill" PictureName="PasteShared2!" Text="Shape Fill" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_shapeoutline" PictureName="Custom055a!" Text="Shape Outline" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_shapeeffects" PictureName="SetDefaultClass1!" Text="Shape Effects" Visible="true"/>
+						</Menu>
+					</LargeButton>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="File Management" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_archive" PictureName="PasteSQL3!" PowerTipText="Archive" Text="File Management" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_restorefromarchive" PictureName="SingletonReturn1!" PowerTipText="Restore from Archive" Text="Restore from Archive" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_backup" PictureName="SaveChanges!" PowerTipText="Backup" Text="Backup" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_restorefrombackup" PictureName="SelectTable3!" PowerTipText="Restore from Backup" Text="Restore from Backup" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_share" PictureName="PasteShared!" PowerTipText="Share" Text="Share" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_publish" PictureName="Deploy1!" PowerTipText="Publish" Text="Publish" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_lockfile" PictureName="DeclareProcedure!" PowerTipText="Lock File" Text="Lock File" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_unlockfile" PictureName="Step!" PowerTipText="Unlock File" Text="Unlock File" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_view" Text="View" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Row" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_first" PictureName="VCRFirst!" PowerTipText="First" Text="Row" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_prior" PictureName="VCRPrior!" PowerTipText="Prior" Text="Prior" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_next" PictureName="VCRNext!" PowerTipText="Next" Text="Next" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_last" PictureName="VCRLast!" PowerTipText="Last" Text="Last" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Sort&amp;Filter" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_sort" PictureName="Sort!" PowerTipDescription="Sorts items" PowerTipText="Sort..." Text="Sort&amp;Filter" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_filter" PictureName="Filter!" PowerTipText="Filter..." Text="Filter..." Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_report" Text="Report" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Report" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_categorystatistic" PictureName="image\Blue\Statistics_small.png" PowerTipText="Category Statistic" Text="Report" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_moderngraph" PictureName="ControlNestedReport!" PowerTipText="Modern Graph" Text="Modern Graph" Visible="true"/>
+					<LargeButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_chart" PictureName="ChartBig!" PowerTipText="Chart" Text="Chart" Visible="true">
+						<Menu>
+							<Item Checked="false" Enabled="true" MenuItemName="m_googlecharts1" PictureName="Tab3!" Text="Google Charts 1" Visible="true"/>
+							<Item Checked="false" Enabled="true" MenuItemName="m_googlecharts2" PictureName="Tab4!" Text="Google Charts 2" Visible="true"/>
+						</Menu>
+					</LargeButton>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_window" Text="Window" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Arrange" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_cascade" PictureName="Cascade!" PowerTipDescription="Cascade windows so that each title bar is visible" PowerTipText="Cascade" Text="Arrange" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_tilehorizontal" PictureName="Horizontal!" PowerTipDescription="Tile windows horizontally so that none are overlapping" PowerTipText="Tile Horizontal" Text="Tile Horizontal" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_tilevertical" PictureName="Tile!" PowerTipDescription="Tile windows vertically so that none are overlapping" PowerTipText="Tile Vertical" Text="Tile Vertical" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_layer" PictureName="Layer!" PowerTipDescription="Layer windows so that each one completely covers the one below it" PowerTipText="Layer" Text="Layer" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Close" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_close" PictureName="Close!" PowerTipText="Close" Text="Close" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_closeall" PictureName="Close1!" PowerTipText="Close All" Text="Close All" Visible="true"/>
+				</Panel>
+			</Category>
+			<Category Enabled="true" MenuItemName="m_help" Text="Help" Visible="true">
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Settings" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_settings" PictureName="Custom045!" PowerTipDescription="Choose a theme." PowerTipText="Theme Settings" Text="Settings" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_menusettings" PictureName="Preferences1!" PowerTipDescription="Choose a menu style." PowerTipText="Menu Settings" Text="Menu Settings" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_ribbonbarpreference" PictureName="Preferences!" PowerTipDescription="Configure the RibbonBar." PowerTipText="RibbonBar Settings" Text="RibbonBar Settings" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Display" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_displayribbonbar" PictureName="RibbonBar!" PowerTipText="Display as RibbonBar!" Text="Display" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_displaymenu" PictureName="Menu!" PowerTipText="Display as Menu!" Text="Display as Menu!" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Help" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_readme" PictureName="Custom101!" PowerTipDescription="Displays README." PowerTipText="README" Shortcut="F1" Text="Help" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_about" PictureName="ToolkitAbout!" PowerTipDescription="Displays program information" PowerTipText="About" Text="About" Visible="true"/>
+				</Panel>
+				<Panel Enabled="true" PictureName="RibbonMenuButtonLarge!" Text="Lock&amp;Exit" Visible="true">
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_screensaver" PictureName="image\screensaver.png" PowerTipText="Screen Saver" Text="Lock&amp;Exit" Visible="true"/>
+					<SmallButton Checked="false" DefaultCommand="false" Enabled="true" MenuItemName="m_exit" PictureName="Exit1!" PowerTipDescription="Quits the application" PowerTipText="Exit" Text="Exit" Visible="true"/>
+				</Panel>
+			</Category>
+		</Categories>
+	</RibbonItems>
+</RibbonBar>

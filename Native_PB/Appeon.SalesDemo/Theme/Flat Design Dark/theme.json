@@ -1,7 +1,7 @@
 {
 	"meta-info":
 	{
-		"version":"25.0.0.3295"
+		"version":"25.0.0.3559"
 	},
 	"checkbox":
 	{
@@ -312,21 +312,25 @@
 			"drawing":true,
 			"head-band":
 			{
+				"drawing_background-color":true,
 				"background-color":"#1A1A1A",
 				"dwo-text-font":{"color":"#CCCCCC"}
 			},
 			"detail-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626",
 				"selected-row-text-color":"#CCCCCC",
 				"selected-row-background-color":"#4D4D4D"
 			},
 			"summary-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626"
 			},
 			"footer-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#1A1A1A"
 			},
 			"grid-line":
@@ -362,21 +366,25 @@
 			"drawing":true,
 			"head-band":
 			{
+				"drawing_background-color":true,
 				"background-color":"#1A1A1A",
 				"dwo-text-font":{"color":"#CCCCCC"}
 			},
 			"detail-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626",
 				"selected-row-text-color":"#CCCCCC",
 				"selected-row-background-color":"#4D4D4D"
 			},
 			"summary-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626"
 			},
 			"footer-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#1A1A1A"
 			},
 			"grid-line":
@@ -412,18 +420,22 @@
 			"drawing":false,
 			"head-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#1A1A1A"
 			},
 			"detail-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626"
 			},
 			"summary-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626"
 			},
 			"footer-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#1A1A1A"
 			}
 		},
@@ -432,18 +444,22 @@
 			"drawing":false,
 			"head-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#1A1A1A"
 			},
 			"detail-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626"
 			},
 			"summary-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#262626"
 			},
 			"footer-band":
 			{
+				"drawing_background-color":false,
 				"background-color":"#1A1A1A"
 			}
 		}
