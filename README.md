@@ -1,5 +1,5 @@
 # PowerBuilder-Menu2RibbonBar-Example
-This demo is a PowerBuilder application, developed with Appeon PowerBuilder 2025 Beta4 (build 3559). This Sales CRM Demo application demonstrates the new Converting MDI Menu to RibbonBar feature!  (*You can learn more details from PB Help - What's New - PowerBuilder 2025 - New Features.*)
+This demo is a PowerBuilder application, developed with Appeon PowerBuilder 2025 Beta4(build 3559). This Sales CRM Demo application demonstrates the new Converting MDI Menu to RibbonBar feature!  (*You can learn more details from PB Help - What's New - PowerBuilder 2025 - New Features.*)
 
 ### Get Started
 
@@ -15,7 +15,7 @@ This is the most recommended part of this new feature: you don't need to adjust 
 
   You can use two users to log in separately to see the effect of the permission-controlled conversion: User *Bob* has access to all menus by default. User *Alice* cannot view the Report menu. When opening the Address window, Customer window, etc., you can see that the buttons in the Action category become clickable. The options in the QuickAccessBar are also controlled synchronously.
 
-- The ToolbarItemVisible of the Toolbar is always synchronized to the QuickAccessToolbar (QAT) of the RibbonBar.
+- The ToolbarItemVisible of the Toolbar is always synchronized to the QuickAccessToolbar (QAT) of the RibbonBar. 
 
 ### Menu Settings Window
 
