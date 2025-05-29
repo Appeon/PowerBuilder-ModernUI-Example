@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>README</title></head>
+<body><p>This ModernUI demo application demonstrates techniques to modernize the look and feel of PowerBuilder MDI applications without requiring code changes. One of its key highlights is the new <em>RibbonView</em> feature: If you have a menu in the MDI or MDIHelp window, you can change its display from the menu style to the ribbon bar style, with just a few clicks. (<em>You can learn more details from PowerBuilder Help - What&#39;s New - PowerBuilder 2025 - New Features.</em>)</p>
+<h3>Get Started</h3>
+<p>This app uses the classic Menu as the initial state by default. You can preview the effect of the menu first. Go to <em>Help - Menu Settings</em> to manually change the Menu as needed, then click  <em>Help - Display as RibbonBar</em> to experience the new feature. You can click <em>Help - Display as Menu</em> to display as menu again.</p>
+<p><img src='./image/DisplayAsRibbonBar.png' alt='Display as RibbonBar' referrerPolicy='no-referrer' /></p>
+<p>Notice that the application contains the basic function modules about sales order processing. You can connect to <em>PB Demo DB V2025 (SQL Anywhere)</em> database to run it. To make this demo look closer to a real app, we have added more simulated menu items under the first Menu. Since there are no real Clicked event, they will only show a message.</p>
+<h3>Property Synchronization</h3>
+<p>This is the most recommended part of this new feature: you don&#39;t need to adjust any existing code that controls the Enabled/Visible properties of a menu and its toolbar.</p>
+<ul>
+<li><p>Menu&#39;s Enabled/Visible properties are always synchronized to the RibbonView. </p>
+<p>You can use two users to log in separately to see the effect of the permission-controlled conversion: User <em>Bob</em> has access to all menus by default. User <em>Alice</em> cannot view the Report menu. When opening the Address window, Customer window, etc., you can see that the buttons in the Action category become clickable. The options in the QuickAccessBar are also controlled synchronously.</p>
+</li>
+<li><p>The ToolbarItemVisible of the Toolbar is always synchronized to the QuickAccessToolbar (QAT) of the RibbonBar.</p>
+</li>
+
+</ul>
+<h3>Menu Settings Window</h3>
+<p>In the <em>Help - Menu Settings</em> window, you can switch between different common cases of the menu. </p>
+<p><img src='./image/MenuSettings.png' alt='' referrerPolicy='no-referrer' /></p>
+<p>These 4 menu profiles are using different default RibbonBar Settings: 1) Contemporary: only uses static settings on menu properties. No RibbonBar settings has been applied. 2) Traditional: use customize code to set menu properties dynamically. 3) File-First and Toolbar-Centric are using XML. </p>
+<p>If you have clicked the <em>Help - Display as RibbonBar</em>, you can click the <em>RibbonBar Settings</em> button to open the RibbonBar Settings Window quickly.</p>
+<h3>RibbonBar Settings Window</h3>
+<p>In the <em>Help - RibbonBar Settings</em> window. The RibbonBar properties and a few menu extended solution provided are visualized there. You can change the settings for the current menu, save to see the adjusted UI effect.</p>
+<p><img src='image/RibbonBarSettings.png' alt='RibbonBar Settings' referrerPolicy='no-referrer' /></p>
+<ul>
+<li><p>Show/Hide Options - Whether to show RibbonBar Panel Text/Sheet List/QuickAccessToolbar(QAT).</p>
+</li>
+<li><p>RibbonView - You can configure RibbonView - Button/Panel settings statically in the menu painter. Except that, you can quickly improve the UI effect by setting the menu properties dynamically by adding some code. </p>
+<p>For example: set the default image and default size for menu items, change the panel text, etc.</p>
+</li>
+<li><p>RibbonBar Converter - When fully customized using XML (exported from Menu, so there are  MenuItemName properties that can be used to bind the menu item), you can control all the details that the native RibbonBar function already supports. The customization XML is Menu2RibbonBar\m_frame.xml by default.</p>
+</li>
+<li><p>Default Selected Category Index - You can specify the default selected category index for the RibbonBar if required.</p>
+</li>
+
+</ul>
+</body>
+</html>
